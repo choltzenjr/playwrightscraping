@@ -46,6 +46,7 @@ async def scrape_data(page):
 
 async def run(playwright: Playwright) -> None:
     # Launch the Chromium browser in non-headless mode (headless=False)
+    # I did this so you could see the progress going on in the browser
     browser = await playwright.chromium.launch(headless=False)
     
     # Create a new browser context
