@@ -1,5 +1,5 @@
 # Documentation for Playwright Web Scraper
-Scraper is designed to scrape the WIPO webpage. It will dynamicaly search for label classes and then find the correct value for that label. The scraper will combine those two terms into a dict and then send each dict to a list. That list then gets written to a json file.
+Scraper designed to scrape the WIPO webpage. It will dynamicaly search for label classes and then find the correct value for that label. The scraper will combine those two terms into a dict and then send each dict to a list. That list then gets written to a json file.
 
 The json file has been included for you to see what the putput should look like.
 
